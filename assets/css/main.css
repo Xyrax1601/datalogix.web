@@ -1575,6 +1575,31 @@ section,
   position: relative;
 }
 
+/* Ensure team members' images align in a single row */
+.team .row {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping to a new line */
+  justify-content: space-around; /* Evenly space the images */
+}
+
+.team .member {
+  flex: 1 0 0; /* All team members will take equal space in the row */
+  max-width: 250px; /* Optional: Adjust max width for uniform sizing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.team .member-img {
+  width: 100%;
+  max-width: 250px; /* Adjust this to control image width */
+}
+
+.team .member-info {
+  text-align: center;
+}
+
 .team .member .member-img {
   margin: 0 80px;
   border-radius: 50%;
