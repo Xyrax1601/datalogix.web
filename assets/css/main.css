@@ -1575,31 +1575,46 @@ section,
   position: relative;
 }
 
-/* Ensure team members' images align in a single row */
+/* Base styles for the team section */
 .team .row {
   display: flex;
-  flex-wrap: nowrap; /* Prevent wrapping to a new line */
-  justify-content: space-around; /* Evenly space the images */
+  flex-wrap: wrap;
+  justify-content: space-between; /* Add space between the items */
 }
 
+/* Style for each team member */
 .team .member {
-  flex: 1 0 0; /* All team members will take equal space in the row */
-  max-width: 250px; /* Optional: Adjust max width for uniform sizing */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 30px;
+  flex: 1 1 22%; /* Set base width for each member (22% allows space between items) */
+  max-width: 450px; /* Optional: Limit max width */
+  margin-bottom: 30px; /* Space between rows */
+  box-sizing: border-box; /* Ensure padding/margin doesn't affect width */
 }
 
-.team .member-img {
-  width: 100%;
-  max-width: 250px; /* Adjust this to control image width */
-}
-
-.team .member-info {
+/* Center the content inside the member */
+.team .member-img, .team .member-info {
   text-align: center;
 }
 
+/* Adjust layout for smaller screens (2 members per row) */
+@media (max-width: 768px) {
+  .team .member {
+    flex: 1 1 45%; /* 45% width for 2 members per row */
+    max-width: none; /* Remove max-width limitation */
+  }
+}
+@media (max-width: 1200px) {
+  .team .member {
+    flex: 1 1 45%; /* 45% width for 2 members per row */
+    max-width: none; /* Remove max-width limitation */
+  }
+}
+
+/* Full-width for single member on very small screens */
+@media (max-width: 480px) {
+  .team .member {
+    flex: 1 1 100%; /* Full width for single column layout */
+  }
+}
 .team .member .member-img {
   margin: 0 80px;
   border-radius: 50%;
