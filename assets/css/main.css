@@ -1,15 +1,4 @@
-/**
-* Template Name: Append
-* Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Open Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -633,7 +622,7 @@ h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 150px;
   z-index: 99999;
   background-color: var(--accent-color);
   width: 40px;
@@ -1089,7 +1078,7 @@ section,
 }
 
 .services .service-item .icon i {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: transparent 30%);
   font-size: 56px;
   transition: ease-in-out 0.3s;
   z-index: 2;
@@ -1575,6 +1564,46 @@ section,
   position: relative;
 }
 
+/* Base styles for the team section */
+.team .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Add space between the items */
+}
+
+/* Style for each team member */
+.team .member {
+  flex: 1 1 22%; /* Set base width for each member (22% allows space between items) */
+  max-width: 450px; /* Optional: Limit max width */
+  margin-bottom: 30px; /* Space between rows */
+  box-sizing: border-box; /* Ensure padding/margin doesn't affect width */
+}
+
+/* Center the content inside the member */
+.team .member-img, .team .member-info {
+  text-align: center;
+}
+
+/* Adjust layout for smaller screens (2 members per row) */
+@media (max-width: 768px) {
+  .team .member {
+    flex: 1 1 45%; /* 45% width for 2 members per row */
+    max-width: none; /* Remove max-width limitation */
+  }
+}
+@media (max-width: 1200px) {
+  .team .member {
+    flex: 1 1 45%; /* 45% width for 2 members per row */
+    max-width: none; /* Remove max-width limitation */
+  }
+}
+
+/* Full-width for single member on very small screens */
+@media (max-width: 480px) {
+  .team .member {
+    flex: 1 1 100%; /* Full width for single column layout */
+  }
+}
 .team .member .member-img {
   margin: 0 80px;
   border-radius: 50%;

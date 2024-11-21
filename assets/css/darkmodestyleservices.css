@@ -1,0 +1,64 @@
+:root {
+  --base-color: white;
+  --base-variant: #e8e9ed;
+  --text-color: #111528;
+  --secondary-text: #232738;
+  --primary-color: #3a435d;
+  --accent-color: #0071ff;
+}
+
+.darkmode {
+  --base-color: #00264d;
+  --base-variant: #00264d;
+  --text-color: #ffffff;
+  --secondary-text: #a4a5b8;
+}
+
+body.darkmode {
+  background-color: #00264d;
+  color: var(--text-color);
+}
+
+body.darkmode header, 
+body.darkmode footer,
+body.darkmode nav,
+body.darkmode div,
+body.darkmode .card,
+body.darkmode div.container,
+body.darkmode section#service-details,
+body.darkmode .service-box,
+body.darkmode .services-list,
+body.darkmode .footer-top ul li a {
+  background-color: #00264d;
+  color: var(--text-color);
+}
+
+body.darkmode a,
+body.darkmode .navbar a,
+body.darkmode section#service-details .service-box a {
+  color: #bb86fc;
+}
+
+body.darkmode button,
+body.darkmode input, 
+body.darkmode textarea {
+  background-color: #333;
+  color: var(--text-color);
+}
+
+body.darkmode section#service-details .service-box a {
+  border: 1px solid #444;
+}
+
+body.darkmode .help-box {
+  background-color: #f8fcff;
+  color: #333;
+}
+
+body.darkmode .help-box h4{
+  color: #000000;
+}
+
+body.darkmode .help-box a {
+  color: #0066cc;
+}

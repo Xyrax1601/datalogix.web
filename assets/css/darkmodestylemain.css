@@ -1,0 +1,516 @@
+:root {
+    --base-color: white;
+    --base-variant: #e8e9ed;
+    --text-color: #111528;
+    --secondary-text: #232738;
+    --primary-color: #3a435d;
+    --accent-color: #0071ff;
+  }
+  
+  .darkmode {
+    --base-color: #070b1d;
+    --base-variant: #101425;
+    --text-color: #ffffff;
+    --secondary-text: #a4a5b8;
+  }
+  
+/* Dark mode for the clients section */
+body.darkmode #clients {
+    background-color: #001f3f; /* Navy blue background */
+    padding: 20px 0;
+  }
+  
+  /* Client logos styling */
+  body.darkmode #clients .client-logo {
+    background-color: #ffffff; /* White background for logos */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  }
+  
+  /* Image adjustment in dark mode */
+  body.darkmode #clients .client-logo img {
+    filter: brightness(0.9); /* Adjust brightness for better contrast */
+  }
+  
+  /* AOS animation */
+  body.darkmode #clients .aos-init.aos-animate {
+    animation: fadeInUp 0.5s ease;
+  }
+
+  /* Dark mode for the about section */
+body.darkmode #about {
+    background-color: #001f3f; /* Navy blue background */
+    color: #ffffff; /* White text for contrast */
+    padding: 50px 0; /* Adjusted padding */
+  }
+  
+  /* Styling for the text and headings inside the about section */
+  body.darkmode #about h2,
+  body.darkmode #about h3 {
+    color: #f0f8ff; /* Light color for headings */
+  }
+  
+  body.darkmode #about p {
+    color: #dcdcdc; /* Slightly darker than white for better readability */
+  }
+  
+  /* Dark mode for icon boxes */
+  body.darkmode #about .icon-box {
+    background-color: #004080; /* Dark navy background for boxes */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+  }
+  
+  /* Text inside the icon boxes */
+  body.darkmode #about .icon-box h3 {
+    color: #ffffff; /* White for headers */
+  }
+  
+  body.darkmode #about .icon-box p {
+    color: #f0f8ff; /* Light text */
+  }
+  
+  /* AOS animations remain intact */
+  body.darkmode #about .aos-init.aos-animate {
+    animation: fadeInUp 0.5s ease;
+  }
+  
+  /* Dark mode for the services section */
+body.darkmode #services {
+    background-color: #001f3f; /* Navy blue background */
+    color: #ffffff; /* White text */
+    padding: 50px 0;
+  }
+  
+  /* Headings inside the services section */
+  body.darkmode #services h2,
+  body.darkmode #services h4 {
+    color: #f0f8ff; /* Light color for headings */
+  }
+  
+  /* Paragraphs inside the services section */
+  body.darkmode #services p {
+    color: #dcdcdc; /* Slightly darker than white for readability */
+  }
+  
+  /* Service item styling in dark mode */
+  body.darkmode #services .service-item {
+    background-color: #004080; /* Dark navy for service items */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Icon color */
+  body.darkmode #services .service-item .icon {
+    color: #ffffff; /* White icon color */
+  }
+  
+  /* Link color */
+  body.darkmode #services .service-item .stretched-link {
+    color: #f0f8ff; /* Light link color */
+  }
+  
+  /* Hover effect on service item */
+  body.darkmode #services .service-item:hover {
+    background-color: #003366; /* Darker navy on hover */
+  }
+  
+  /* Keep AOS animations */
+  body.darkmode #services .aos-init.aos-animate {
+    animation: fadeInUp 0.5s ease;
+  }
+
+  /* Dark mode for the services section */
+body.darkmode #services {
+  background-color: #001f3f; /* Navy blue background */
+  color: #ffffff; /* White text */
+  padding: 50px 0;
+}
+
+/* Headings inside the services section */
+body.darkmode #services h2,
+body.darkmode #services h4 {
+  color: #f0f8ff; /* Light color for headings */
+}
+
+/* Paragraphs inside the services section */
+body.darkmode #services p {
+  color: #dcdcdc; /* Slightly darker than white for readability */
+}
+
+/* Service item styling in dark mode */
+body.darkmode #services .service-item {
+  background-color: #004080; /* Dark navy for service items */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+  transition: background-color 0.3s ease;
+}
+
+/* Icon color */
+body.darkmode #services .service-item .icon {
+  color: #ffffff; /* White icon color */
+}
+
+/* Link color */
+body.darkmode #services .service-item .stretched-link {
+  color: #f0f8ff; /* Light link color */
+}
+
+/* Hover effect on service item */
+body.darkmode #services .service-item:hover {
+  background-color: #003366; /* Darker navy on hover */
+}
+
+/* Keep AOS animations */
+body.darkmode #services .aos-init.aos-animate {
+  animation: fadeInUp 0.5s ease;
+}
+
+/* Dark mode for the features section */
+body.darkmode #features {
+    background-color: #00264d; /* Dark navy blue background */
+    color: #ffffff; /* White text for better readability */
+    padding: 50px 0; /* Add some padding for spacing */
+  }
+  
+  /* Styling for section title */
+  body.darkmode #features .section-title h2 {
+    color: #f0f8ff; /* Light color for section title */
+  }
+  
+  body.darkmode #features .section-title p {
+    color: #dcdcdc; /* Slightly darker white for the description */
+  }
+  
+  /* Feature text */
+  body.darkmode #features h3,
+  body.darkmode #features p {
+    color: #f0f8ff; /* Lightened text for better contrast */
+  }
+  
+  
+  /* Button styling in dark mode */
+  body.darkmode #features .btn-get-started {
+    background-color: #008CBA; /* Light blue background for the button */
+    color: #ffffff; /* White text */
+    border: none;
+  }
+  
+  body.darkmode #features .btn-get-started:hover {
+    background-color: #005f73; /* Darker blue for hover state */
+  }
+  
+  /* List of features */
+  body.darkmode #features ul li span {
+    color: #ffffff; /* White color for text */
+  }
+  
+  body.darkmode #features ul li i {
+    color: #00ffab; /* Bright accent color for icons */
+  }
+
+  /* Dark mode for the portfolio section */
+body.darkmode #portfolio {
+    background-color: #001f3f; /* Navy blue background */
+    color: #ffffff; /* White text for contrast */
+    padding: 50px 0; /* Adjusted padding */
+  }
+  
+  /* Styling for the text and headings inside the portfolio section */
+  body.darkmode #portfolio h2,
+  body.darkmode #portfolio p {
+    color: #f0f8ff; /* Light color for headings and description */
+  }
+  
+  /* Dark mode for portfolio filters */
+  body.darkmode #portfolio .portfolio-filters li {
+    background-color: #004080; /* Dark navy for filter buttons */
+    color: #ffffff; /* White text */
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Active filter button */
+  body.darkmode #portfolio .portfolio-filters .filter-active {
+    background-color: #0074D9; /* Brighter blue for active filter */
+  }
+  
+
+  
+  /* Text inside portfolio items */
+  body.darkmode #portfolio .portfolio-item h4,
+  body.darkmode #portfolio .portfolio-item p {
+    color: black; /* Light color for portfolio text */
+  }
+  
+ 
+  
+  /* AOS animations remain intact */
+  body.darkmode #portfolio .aos-init.aos-animate {
+    animation: fadeInUp 0.5s ease;
+  }
+  
+  /* Dark mode for the team section */
+body.darkmode #team {
+    background-color: #001f3f; /* Navy blue background */
+    color: #ffffff; /* White text */
+    padding: 50px 0; /* Adjusted padding */
+  }
+  
+  body.darkmode #team h2 {
+    color: #f0f8ff; /* Light color for the section title */
+  }
+  
+  body.darkmode #team .member-info h4 {
+    color: #ffffff; /* White for member names */
+  }
+  
+  body.darkmode #team .member-info span {
+    color: #dcdcdc; /* Slightly darker white for member positions */
+  }
+  
+  /* Dark mode for member image containers (No border, no padding) */
+  body.darkmode #team .member-img {
+    background-color: transparent; /* No background */
+    box-shadow: none; /* Remove shadow */
+    padding: 0; /* Remove padding */
+  }
+  
+  body.darkmode #team .social a {
+    color: #f0f8ff; /* Light color for social icons */
+  }
+  
+  /* AOS animations for team members in dark mode */
+  body.darkmode #team .aos-init.aos-animate {
+    animation: fadeInUp 0.5s ease;
+  }
+  
+  /* Light mode for the recent posts section */
+#recent-posts {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    padding: 50px 0; /* Adjusted padding */
+  }
+  
+  #recent-posts h2,
+  #recent-posts p {
+    color: #000000; /* Black color for headings and descriptions */
+  }
+  
+  #recent-posts .post-category {
+    color: #333333; /* Dark gray for post categories */
+  }
+  
+  #recent-posts .title a {
+    color: #000000; /* Black for post titles */
+  }
+  
+  /* Remove borders from post images and iframe */
+  #recent-posts .post-img iframe {
+    border: none; /* Remove border */
+  }
+  
+  /* Styling for the author info */
+  #recent-posts .post-author {
+    color: #000000; /* Black color for author names */
+  }
+  
+  #recent-posts .post-date {
+    color: #666666; /* Dark gray color for the post date */
+  }
+  
+  /* AOS animations remain intact */
+  #recent-posts .aos-init.aos-animate {
+    animation: fadeInUp 0.5s ease;
+  }
+
+  /* Dark mode for the recent posts section */
+body.darkmode #recent-posts {
+    background-color: #001f3f; /* Navy blue background */
+    color: black; /* White text for contrast */
+    padding: 50px 0; /* Adjusted padding */
+  }
+  
+  body.darkmode #recent-posts h2,
+  body.darkmode #recent-posts p {
+    color: white; /* Light color for headings and descriptions */
+  }
+  
+  body.darkmode #recent-posts .post-category {
+    color: black; /* Slightly darker than white for better readability */
+  }
+  
+  body.darkmode #recent-posts .title a {
+    color: black; /* White for post titles */
+  }
+  
+  /* Remove borders from post images and iframe */
+  body.darkmode #recent-posts .post-img iframe {
+    border: none; /* Remove border */
+  }
+  
+  /* Styling for the author info */
+  body.darkmode #recent-posts .post-author {
+    color: black; /* Light color for author names */
+  }
+  
+  body.darkmode #recent-posts .post-date {
+    color: black; /* Light color for the post date */
+  }
+  
+  /* AOS animations remain intact */
+  body.darkmode #recent-posts .aos-init.aos-animate {
+    animation: fadeInUp 0.5s ease;
+  }
+  
+  /* Dark mode for the contact section */
+  
+  /* Google Map iframe styling */
+  #contact iframe {
+    border: none; /* Remove border from iframe */
+    border-radius: 8px; /* Optional rounded corners */
+  }
+  
+  /* AOS animations remain intact */
+  #contact .aos-init.aos-animate {
+    animation: fadeInUp 0.5s ease;
+  }
+
+  /* Dark mode for the contact section */
+body.darkmode #contact {
+    background-color: #001f3f; /* Navy blue background */
+    color: #ffffff; /* White text */
+    padding: 50px 0; /* Adjusted padding */
+  }
+  
+  body.darkmode #contact h2 {
+    color: #f0f8ff; /* Light color for the section title */
+  }
+  
+  body.darkmode #contact p {
+    color: #dcdcdc; /* Slightly darker white for paragraph text */
+  }
+  
+  /* Dark mode for info items */
+  body.darkmode #contact .info-item {
+    background-color: transparent; /* No background */
+    box-shadow: none; /* Remove shadow */
+    padding: 0; /* Remove padding */
+    color: #ffffff; /* Ensure text is white */
+  }
+  
+  /* Dark mode for icons */
+  body.darkmode #contact .info-item i {
+    color: #f0f8ff; /* Light color for icons */
+  }
+  
+  /* Dark mode for the Google Maps iframe */
+  body.darkmode #contact iframe {
+    border: none; /* Remove border from iframe */
+  }
+  
+  /* AOS animations for contact items in dark mode */
+  body.darkmode #contact .aos-init.aos-animate {
+    animation: fadeInUp 0.5s ease;
+  }
+  
+  /* Dark mode for the footer section */
+body.darkmode #footer {
+    background-color: #001f3f; /* Navy blue background */
+    color: #ffffff; /* White text */
+    padding: 50px 0; /* Adjusted padding */
+  }
+  
+  body.darkmode #footer h4 {
+    color: #f0f8ff; /* Light color for footer headings */
+  }
+  
+  body.darkmode #footer p, 
+  body.darkmode #footer a {
+    color: #dcdcdc; /* Slightly darker than white for better readability */
+  }
+  
+  body.darkmode #footer a:hover {
+    color: #f0f8ff; /* Brighter hover effect */
+  }
+  
+  /* Remove border or background from the social links */
+  body.darkmode #footer .social-links a {
+    background: none; /* No background */
+    color: #f0f8ff; /* Light color for social icons */
+  }
+  
+  body.darkmode #footer .social-links a:hover {
+    color: #ffffff; /* White color on hover */
+  }
+  
+  /* Remove any unwanted borders from the footer */
+  body.darkmode #footer .footer-top {
+    border: none; /* No borders */
+  }
+  
+  /* Remove borders from contact section */
+  body.darkmode #footer .footer-contact {
+    border: none;
+    color: #dcdcdc; /* Keep the text light but readable */
+  }
+  
+  /* AOS animations in dark mode */
+  body.darkmode #footer .aos-init.aos-animate {
+    animation: fadeInUp 0.5s ease;
+  }
+  
+  /* Dark mode for the footer section */
+body.darkmode #footer {
+    background-color: #001f3f; /* Navy blue background */
+    color: #ffffff; /* White text */
+    padding: 50px 0; /* Adjusted padding */
+  }
+  
+  body.darkmode #footer h4 {
+    color: #f0f8ff; /* Light color for footer headings */
+  }
+  
+  body.darkmode #footer p, 
+  body.darkmode #footer a {
+    color: #dcdcdc; /* Slightly darker than white for better readability */
+  }
+  
+  body.darkmode #footer a:hover {
+    color: #f0f8ff; /* Brighter hover effect */
+  }
+  
+  /* Remove border or background from the social links */
+  body.darkmode #footer .social-links a {
+    background: none; /* No background */
+    color: #f0f8ff; /* Light color for social icons */
+  }
+  
+  body.darkmode #footer .social-links a:hover {
+    color: #ffffff; /* White color on hover */
+  }
+  
+  /* Remove any unwanted borders from the footer */
+  body.darkmode #footer .footer-top {
+    border: none; /* No borders */
+  }
+  
+  /* Remove borders from contact section */
+  body.darkmode #footer .footer-contact {
+    border: none;
+    color: #dcdcdc; /* Keep the text light but readable */
+  }
+  
+  /* AOS animations in dark mode */
+  body.darkmode #footer .aos-init.aos-animate {
+    animation: fadeInUp 0.5s ease;
+  }
+  
+  
+  
