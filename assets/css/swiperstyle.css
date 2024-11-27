@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+}
+
+
+
+.slider-wrapper {
+  
+  overflow: hidden;
+  width: 100%;
+ 
+  
+}
+
+.card-list .card-item {
+  height: auto;
+  user-select: none;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  backdrop-filter: blur(80px);
+  background: #ffffff33;
+  border: 1px solid black;
+  transition: transform 0.5s ease; /* Smooth scaling transition */
+}
+
+/* Active center slide remains normal */
+.card-list .swiper-slide-active .card-item {
+  transform: scale(1); /* Center item stays normal */
+}
+
+/* Scaling the adjacent slides */
+.card-list .swiper-slide-next .card-item,
+.card-list .swiper-slide-prev .card-item {
+  transform: scale(1.1); /* Scale up the adjacent slides */
+}
+
+/* Making the adjacent slide images bigger */
+.card-list .swiper-slide-next .user-image,
+.card-list .swiper-slide-prev .user-image {
+  width: 190px !important; /* Larger size for next and previous images */
+  height: 190px !important;
+}
+
+
+
+.abovetext{
+  font-family: "Parkinsans", sans-serif !important;
+  font-size: 20px;
+  color: black;
+  position: relative;
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.belowtext{
+  font-size: 18px;
+  font-weight: 0;
+  font-style: italic;
+  color: #000000;
+  position: relative;
+  margin: 50px;
+  text-align: center;
+}
+
+.card-list .card-item .user-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  border: 4px solid #fe0457;
+  padding: 4px;
+}
+
+.card-list .card-item .user-name {
+  font-size: 26px;
+  color: black;
+  font-weight: 500;
+}
+
+.card-list .card-item .user-profession {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+  margin: 14px 0 40px;
+}
+
+.card-list .card-item .message-btn {
+  font-size: 16px;
+  padding: 10px 35px;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fe0457;
+  border: 2px solid transparent;
+  transition: 0.5s;
+}
+
+.card-list .card-item .message-btn:hover {
+  background: #ffffff1a;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+
+.slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.slider-wrapper .swiper-slide-button {
+  color: #110b0b;
+  margin-top: -55px;
+  transition: 0.5s;
+  padding: 35px;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+
+.slider-wrapper .swiper-slide-button:hover {
+  color: #fe0457;
+}
+
+@media screen and (max-width: 768px) {
+  .slider-wrapper {
+    margin: 0 20px 40px;
+    padding: 0 30px;
+  }
+}
