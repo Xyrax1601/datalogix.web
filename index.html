@@ -8,6 +8,11 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
+    <!-- Linking SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <!-- Favicons -->
   <link href="board/IconD.png" rel="icon">
   <link href="board/IconD.png" rel="apple-touch-icon">
@@ -27,6 +32,9 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/darkmodestylemain.css">
+
+   <!--Swiper CSS Link -->
+   <link rel="stylesheet" href="assets/css/swiperstyle.css">
   
 </head>
 
@@ -168,9 +176,9 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row align-items-xl-center gy-5">
-
-          <div class="col-xl-5 content">
-            <h3>Company Profile</h3>
+            
+          <div class="col-xl-5 content"><div><img style="width: 100%; height: auto; margin: 20px;" src="images/printers.jpg" alt=""></div>
+            <h3>COMPANY PROFILE</h3>
             <h2>Datalogix Solutions Corporation</h2>
             <p style="text-align: justify;">Datalogix Solutions Corporation was established in 2018 by the highly competent business professionals who have proven track records in their
               respective area of expertise and have acquired skilled talents and personnel who are technically equipped with varied experience and technical trainings
@@ -182,8 +190,9 @@
             <div class="row gy-4 icon-boxes">
 
 <div class="col-md-6" data-aos="fade-up" data-aos-delay="200" >
-                <div class="icon-box" style="box-shadow: 4px 6px 5px 4px gray;">
-                  <h3 style="padding: 20px 15px; background-color: #800020; border-radius: 12px; color: aliceblue; opacity: 0.8;">About Us</h3>
+                
+                 <h3 class="underline" style="padding: 20px 15px;">ABOUT US</h3>
+                 <div class="icon-box" > 
                   <p style="text-align: justify;">A convergence of different field of expertise in the ICT and Current industry namely Remantec Corporation which specializes in software development,
                      hardware components ( supplies and deliveries ) and technical support services, Digicomlink Systems Corporation which provides a wide range of digital communication
                       system and other system integration in educational institutions, private companies and government entities, and Windsafe Systems , an Electronic and Security System
@@ -194,25 +203,28 @@
 
               
 
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon-box" style="box-shadow: 4px 6px 5px 4px gray;">
-                  <h3 style="padding: 20px 15px; background-color: #800020; border-radius: 12px; color: aliceblue; opacity: 0.8;">Our Goal</h3>
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200"> 
+                <h3 class="underline" style="padding: 20px 15px;">OUR GOAL</h3>
+                
+                <div class="icon-box" style="margin-top: 10px;">
+                  
                   <p style="text-align: justify;">Offers various products not only in hardware but also software as well. As the use of mobile and web apps rise,
                      your business’s digital presence becomes even more important. Our in-house developed software applications allows your organization
                       to maintain an impactful digital presence.</p>
                 
               </div> <!-- End Icon Box -->
-
-<div >
-              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-                </div> <br>
-                <div class="icon-box" style="box-shadow: 4px 6px 5px 4px gray;">
-                  <h3 style="padding: 20px 15px; background-color: #800020; border-radius: 12px; color: aliceblue; opacity: 0.8;">Our Values</h3>
+              <div style="margin-top: 20px;"><img style="width: 100%; height: auto;" src="images/printers.jpg" alt=""></div>
+</div> <!-- End Icon Box -->
+<div class="different"> <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                </div> 
+                <h3 class="underline"  style="padding: 20px 1px;">OUR VALUES</h3>
+                <div class="icon-box" > 
                   <p style="text-align: justify;">We listen to every client’s needs and help you design and implement solutions which are tailored -fit,
                      effective and cost efficient to the fulfillment of every client’s ICT requirements.</p>
-                </div>
-              </div>
-</div> <!-- End Icon Box -->
+                </div></div>
+             
+              
+
       
 
             </div>
@@ -284,7 +296,7 @@
               <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
               <div>
                 <h4 class="title"><a href="services-details.html" class="stretched-link">Point of Sale System</a></h4>
-                <p style="text-align: justify;"  class="description">A complete point of sale (POS) system for managing sales of retail goods for grocery, convenience store, department store, restaurant,
+                <p class="description" style="text-align: justify;">A complete point of sale (POS) system for managing sales of retail goods for grocery, convenience store, department store, restaurant,
                    fast food and other sales oriented business.</p>
               </div>
             </div>
@@ -296,7 +308,7 @@
               <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
               <div>
                 <h4 class="title"><a href="services-details.html" class="stretched-link">Hotel Information System</a></h4>
-                <p style="text-align: justify;" class="description">Provides an easy to use reservation, registration and billing system for hotel operations. 
+                <p class="description" style="text-align: justify;">Provides an easy to use reservation, registration and billing system for hotel operations. 
                   We have combined our years of hospitality experience with IT expertise to develop an enterprise-class system that brings our clients 
                   a foundation for sustainable competitive advantages.</p>
               </div>
@@ -308,7 +320,7 @@
               <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
               <div>
                 <h4 class="title"><a href="services-details.html" class="stretched-link">Payroll System</a></h4>
-                <p style="text-align: justify;" class="description">Creates a positive impact in the empowerment and efficiency of any organization. Our system automates payroll
+                <p class="description" style="text-align: justify;">Creates a positive impact in the empowerment and efficiency of any organization. Our system automates payroll
                    computation while making recording and retrieval of employee records fast and easy. It has unlimited options for income and deduction 
                    making it very open for future requirements.</p>
               </div>
@@ -320,7 +332,7 @@
               <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
               <div>
                 <h4 class="title"><a href="services-details.html" class="stretched-link">Timekeeping System</a></h4>
-                <p style="text-align: justify;"  class="description">Facilitates the completion and approval of employee time sheets. Our system will standardize department timekeeping
+                <p class="description" style="text-align: justify;">Facilitates the completion and approval of employee time sheets. Our system will standardize department timekeeping
                    processes and will be used by all employees who earn vacation and/or sick leave, overtime or shift differentials. The package includes
                     a biometric Finger Print Recognition Device.</p>
               </div>
@@ -332,7 +344,7 @@
               <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
               <div>
                 <h4 class="title"><a href="services-details.html" class="stretched-link">Personnel Information System</a></h4>
-                <p style="text-align: justify;"  class="description">Allows an individual to gather, organize, store and retrieve the ideas and information found to be useful to the individual.
+                <p class="description" style="text-align: justify;">Allows an individual to gather, organize, store and retrieve the ideas and information found to be useful to the individual.
                    It has been designed for the purpose of storing and maintaining records of all the employees of the organization. Our system improves the performance
                     of most personnel functions, including personnel recruitment, selection and development, as well as administrative services.</p>
               </div>
@@ -344,7 +356,7 @@
               <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
               <div>
                 <h4 class="title"><a href="services-details.html" class="stretched-link">Accounting Information System</a></h4>
-                <p style="text-align: justify;" class="description">A comprehensive and integrated accounting system that allows efficient data management and on-time reports
+                <p class="description" style="text-align: justify;">A comprehensive and integrated accounting system that allows efficient data management and on-time reports
                    delivery for effective decision making. This system is composed of purchase requests, purchase orders, inventory management, 
                    asset management, sales, receipts, cash disbursement, cash deposit, journal voucher, cash management, accounts receivable, accounts payable,
                     bank reconciliation and general ledger system. This is the core of the entire software package we developed. All of our software can fully integrate in this system.</p>
@@ -442,7 +454,7 @@
                 <h4>Desktop Computers</h4>
                 <p>Desktop Computers Setup</p>
                 <a href="/images/desktop.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -452,7 +464,7 @@
                 <h4>Digital Speech Laboratory System</h4>
                 <p>Liceo de Cagayan University</p>
                 <a href="/images/speechlab.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -462,7 +474,7 @@
                 <h4>Turnstyle Entrance System</h4>
                 <p>School gate entrance</p>
                 <a href="/images/turnstylebuksu.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -472,7 +484,7 @@
                 <h4>Hybrid Digital Analog Speechlab</h4>
                 <p>Speech laboratory</p>
                 <a href="images/speechlab3.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -482,7 +494,7 @@
                 <h4>Door Frame Metal Detector</h4>
                 <p>Detects metals for security</p>
                 <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -492,7 +504,7 @@
                 <h4>Speakers</h4>
                 <p>Amplifiers, Active , and Passive speakers</p>
                 <a href="images/speakers.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -502,7 +514,7 @@
                 <h4>Public Address Systems</h4>
                 <p>Audio Broadcasting</p>
                 <a href="images/public-address-systems.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -512,7 +524,7 @@
                 <h4>Turnstyle</h4>
                 <p>School Gate Entrance Turnstyle</p>
                 <a href="images/turn-style1.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
               </div>
             </div><!-- End Portfolio Item -->
 
@@ -522,7 +534,7 @@
                 <h4>Printers</h4>
                 <p>Epson Printers</p>
                 <a href="images/printers.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+               <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>-->
               </div>
              </div><!-- End Portfolio Item -->
 
@@ -535,14 +547,14 @@
              </section><!-- /Portfolio Section -->
 
     <!-- Team Section -->
-    <section id="team" class="team section light-background">
+  <!--  <section id="team" class="team section light-background">
 
-      <!-- Section Title -->
+      Section Title 
       <div class="container section-title" data-aos="fade-up">
         <h2>Our Board of Directors</h2>
         <p></p>
-      </div><!-- End Section Title -->
-
+      </div> End Section Title -->
+<!--
       <div class="container">
 
         <div class="row gy-5">
@@ -562,8 +574,10 @@
               <span>President and CEO</span>
               <p></p>
             </div>
-          </div><!-- End Team Member -->
-
+          </div>-->
+          
+          <!-- End Team Member -->
+<!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
             <div class="member-img">
               <img src="board/noel.jpg" class="img-fluid" alt="">
@@ -576,11 +590,12 @@
             </div>
             <div class="member-info text-center">
               <h4>Emmanuel A. Reonal</h4>
-              <span>EVP/Chief Finance Officer</span>
+              <span>President and CEOEVP/Chief Finance Officer</span>
               <p></p>
             </div>
-          </div><!-- End Team Member -->
-
+          </div>-->
+          <!-- End Team Member -->
+<!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
             <div class="member-img">
               <img src="board/doris.png" class="img-fluid" alt="">
@@ -596,8 +611,8 @@
               <span>VP/Comptroller</span>
               <p></p>
             </div>
-          </div><!-- End Team Member -->
-
+          </div> End Team Member -->
+<!--
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
             <div class="member-img">
               <img src="board/gerald_white_bg.png" class="img-fluid" alt="">
@@ -613,7 +628,8 @@
               <span>VP/Corporate Secretary</span>
               <p></p>
             </div>
-          </div><!-- End Team Member -->
+          </div> -->
+          <!-- End Team Member -->
 <!-- 
           <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
             <div class="member-img">
@@ -639,7 +655,62 @@
 
     </section><!-- /Team Section -->
 
-    
+    <section id="swiperblack">
+      <div class="container swiper" id="swiper">
+      <div class="slider-wrapper" id="swiper"> <div class="abovetext" >
+            <p >We are driven by a talented team of individuals, <br> motivated by innovation and a commitment to <br> advancing technology</p>
+          </div>
+        <div class="card-list swiper-wrapper">
+          
+         
+  
+          <div class="card-item swiper-slide">
+            <img src="board/noel.jpg" alt="User Image" class="user-image">
+            <h2 class="user-name">Emmanuel A. Reonal</h2>
+            <p class="user-profession">EVP/Chief Executive Officer</p>
+            
+          </div>
+  
+          <div class="card-item swiper-slide">
+            <img src="board/joel.jpg" alt="User Image" class="user-image">
+            <h2 class="user-name">Joel Harvey V. Agsaoay</h2>
+            <p class="user-profession">President/CEO</p>
+            
+          </div>
+  
+          <div class="card-item swiper-slide">
+            <img src="board/doris.png" alt="User Image" class="user-image">
+            <h2 class="user-name">Doris B. Calapiz</h2>
+            <p class="user-profession">VP/Comptroller</p>
+            
+          </div>
+  
+          <div class="card-item swiper-slide">
+            <img src="board/gerald_white_bg.png" alt="User Image" class="user-image">
+            <h2 class="user-name">Gerald A. Reonal</h2>
+            <p class="user-profession">VP/Corporate Secretary</p>
+            
+          </div>
+        </div>
+  
+        <div class="swiper-pagination"></div>
+  
+        
+  
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class="swiper-slide-button swiper-button-next"></div>
+  
+          <div class="belowtext" id="below-text">
+            <p>We're constantly innovating, problem-solving, and making a real impact for our clients. <br>
+            It's rewarding to be part of the team that turns challenges into opportunities with technology.</p>
+          </div>  
+  
+      </div>
+      
+      
+        
+    </div>
+  </section>
 
     <!-- Recent Posts Section -->
     <section id="recent-posts" class="recent-posts section">
@@ -882,7 +953,9 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
+ <!-- Swiper JS Script Link -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="main.js"></script>
 </body>
 
 </html>
