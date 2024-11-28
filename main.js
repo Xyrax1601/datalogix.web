@@ -36,8 +36,8 @@ const swiper = new Swiper('.slider-wrapper', {
   // Define the text content for each slide
   const belowTextContent = [
     "&quot;We're constantly innovating, problem-solving, and making a real impact for our clients. <br> It's rewarding to be part of the team that turns challenges into opportunities with technology.&quot;",
-    "&quot;Everyday is an oppurtunity to learn and grow. <br> I take up pride in being part of a team that transforms complex challenges into seamless solutions, <br> making technology work for our clients.&quot;",
-    "&quot;It's thrilling to develop customized solutiond that enable <br> businesses to grow and stay competitive in the constantly changing digital landscape. &quot;",
+    "&quot;Everyday is an opportunity to learn and grow. <br> I take up pride in being part of a team that transforms complex challenges into seamless solutions, <br> making technology work for our clients.&quot;",
+    "&quot;It's thrilling to develop customized solutions that enable <br> businesses to grow and stay competitive in the constantly changing digital landscape. &quot;",
     "&quot;I find fulfillment in understanding our clients' unique needs and delivering tailored technical expertise. <br> It's rewarding to empower them with solutions that enhance their operations and drive their success. &quot;",
     "&quot;Gerald A. Reonal is shaping corporate governance at Datalogix, ensuring legal and organizational compliance. &quot;"
   ];
