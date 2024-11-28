@@ -512,25 +512,5 @@ body.darkmode #footer {
     animation: fadeInUp 0.5s ease;
   }
   
-  
-    .slider-wrapper {
-    background-color: #001f3f; /* Navy blue background */
-    color: #ffffff; /* White text */
-  }
-  body.darkmode #swiperblack {
-    background-color: #001f3f; /* Navy blue background */
-    color: var(--text-color);
-    padding: 20px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  .abovetext p,
-  .belowtext p
-  {
-    color: #ffffff; /* White text */
-  }
-
-  .user-name  h2 p{
-    color: #ffffff; /* White text */
-  }
+  https://xyrax1601.github.io/datalogix.web/#
   
