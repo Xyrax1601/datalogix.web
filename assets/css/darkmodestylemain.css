@@ -512,5 +512,49 @@ body.darkmode #footer {
     animation: fadeInUp 0.5s ease;
   }
   
-  https://xyrax1601.github.io/datalogix.web/#
+  /* Default Light Mode Styles */
+.slider-wrapper {
   
+  color: var(--text-color); /* Light mode text */
+}
+
+#swiperblack {
+  background-color: var(--base-color); /* Light mode base color */
+  color: var(--text-color);
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Softer shadow for light mode */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Above and Below Text */
+.abovetext p,
+.belowtext p {
+  color: var(--secondary-text); /* Adapt to light or dark mode */
+}
+
+/* User Name */
+.user-name {
+  color: var(--text-color);
+}
+
+/* Dark Mode Specific Styles */
+body.darkmode .slider-wrapper {
+  background-color: #001f3f; /* Navy blue for dark mode */
+  color: #ffffff; /* White text for dark mode */
+}
+
+body.darkmode #swiperblack {
+  background-color: #001f3f; /* Navy blue background */
+  color: #ffffff; /* White text */
+}
+
+/* Above and Below Text in Dark Mode */
+body.darkmode .abovetext p,
+body.darkmode .belowtext p {
+  color: #ffffff; /* White text */
+}
+
+/* User Name in Dark Mode */
+body.darkmode .user-name {
+  color: #ffffff;
+}
